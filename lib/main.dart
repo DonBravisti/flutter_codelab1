@@ -114,7 +114,7 @@ class MountsApp extends StatelessWidget {
         ),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [AppHeader(), AppSearch()],
+          children: [AppHeader(), AppSearch(), AppMountListView()],
         ));
   }
 }
